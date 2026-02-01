@@ -129,33 +129,38 @@ http://localhost:3000
 
 🔄 Application Flow
 
-User registers an account
+1) User registers an account
 
-User logs in
+2) User logs in
 
-User creates posts
+3) User creates posts
 
-Posts appear immediately on the posts page
+4) Posts appear immediately on the posts page
 
-Admin logs in
+5) Admin logs in
 
-Admin manages and deletes posts from the admin dashboard
+6) Admin manages and deletes posts from the admin dashboard
 
 🧪 Testing (Manual)
-Register
-POST /api/auth/register
+1) Register
 
-Login
-POST /api/auth/login
+- POST /api/auth/register
 
-Create Post
-POST /api/posts
+2) Login
 
-View Posts
-GET /api/posts
+- POST /api/auth/login
 
-Delete Post
-DELETE /api/posts/:id
+3) Create Post
+
+- POST /api/posts
+
+4) View Posts
+
+- GET /api/posts
+
+5) Delete Post
+
+- DELETE /api/posts/:id
 
 📸 Screenshots
 
