@@ -1,33 +1,42 @@
-📘 Campus Posts Portal
+    📘 Campus Posts Portal
 
 A full-stack campus communication platform that allows students to share posts and administrators to manage content using role-based access control.
 
-📌 Project Overview
+    📌 Project Overview
 
 Campus Posts Portal is a role-based web application built to help campus communities share announcements, updates, and discussions in a secure and organized way.
 The system supports user authentication, post management, and an admin dashboard, fulfilling all core backend and frontend requirements.
 
     🎯 Features (Based on Requirements)
 👤 Authentication & Authorization
+
 1.User registration
+
 2.User login and logout
+
 3.JWT authentication using HTTP-only cookies
+
 4.Protected routes (unauthenticated users cannot access dashboards)
+
 5.Role-based access control (Student / Admin)
 
 📝 Posts Management
+
 1.Create posts (authenticated users)
+
 2.View all posts
+
 3.Delete own posts
+
 4.Admin can delete any post
 
 🛡️ Admin Dashboard
 
-View all posts
+1.View all posts
 
-Delete posts as admin
+2.Delete posts as admin
 
-Admin role enforcement
+3.Admin role enforcement
 
 🎨 UI & UX
 
@@ -39,26 +48,27 @@ Responsive design
 
 Clear dashboards for users and admins
 
-🧰 Tech Stack
-Frontend
+    🧰 Tech Stack
 
-Next.js (App Router)
+1) Frontend
 
-Tailwind CSS
+- Next.js (App Router)
 
-Fetch API with credentials
+- Tailwind CSS
 
-Backend
+- Fetch API with credentials
 
-Node.js
+2)Backend
 
-Express.js
+- Node.js
 
-MongoDB + Mongoose
+- Express.js
 
-JWT Authentication
+- MongoDB + Mongoose
 
-🗂️ Project Structure
+- JWT Authentication
+
+      🗂️ Project Structure
 
 campus-posts-portal/
 │
@@ -76,14 +86,20 @@ campus-posts-portal/
 │
 └── README.md
 
-⚙️ Installation & Setup
+     ⚙️ Installation & Setup
+     
 1️⃣ Clone the Repository
+
 git clone https://github.com/laviee143/campus-posts-portal.git
+
 cd campus-posts-portal
 
 2️⃣ Backend Setup
+
 cd backend
+
 npm install
+
 npm run dev
 
 
@@ -99,8 +115,11 @@ Backend runs on:
 http://localhost:5000
 
 3️⃣ Frontend Setup
+
 cd frontend
+
 npm install
+
 npm run dev
 
 
@@ -168,13 +187,13 @@ Responsiveness
 
 <img width="418" height="825" alt="image" src="https://github.com/user-attachments/assets/16543e11-5e16-4670-a00c-4358cf12cfc9" />
 
-🚀 Future Improvements
+    🚀 Future Improvements
 
-Edit posts
+- Edit posts
 
-Image uploads
+- Image uploads
 
-Pagination
+- Pagination
 
 👤 Author
 
