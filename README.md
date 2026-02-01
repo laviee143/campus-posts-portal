@@ -7,28 +7,19 @@ A full-stack campus communication platform that allows students to share posts a
 Campus Posts Portal is a role-based web application built to help campus communities share announcements, updates, and discussions in a secure and organized way.
 The system supports user authentication, post management, and an admin dashboard, fulfilling all core backend and frontend requirements.
 
-🎯 Features (Based on Requirements)
+    🎯 Features (Based on Requirements)
 👤 Authentication & Authorization
-
-User registration
-
-User login and logout
-
-JWT authentication using HTTP-only cookies
-
-Protected routes (unauthenticated users cannot access dashboards)
-
-Role-based access control (Student / Admin)
+1.User registration
+2.User login and logout
+3.JWT authentication using HTTP-only cookies
+4.Protected routes (unauthenticated users cannot access dashboards)
+5.Role-based access control (Student / Admin)
 
 📝 Posts Management
-
-Create posts (authenticated users)
-
-View all posts
-
-Delete own posts
-
-Admin can delete any post
+1.Create posts (authenticated users)
+2.View all posts
+3.Delete own posts
+4.Admin can delete any post
 
 🛡️ Admin Dashboard
 
