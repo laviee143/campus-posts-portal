@@ -5,7 +5,6 @@ A full-stack campus communication platform that allows students to share posts a
 📌 Project Overview
 
 Campus Posts Portal is a role-based web application built to help campus communities share announcements, updates, and discussions in a secure and organized way.
-
 The system supports user authentication, post management, and an admin dashboard, fulfilling all core backend and frontend requirements.
 
 🎯 Features (Based on Requirements)
@@ -69,6 +68,7 @@ MongoDB + Mongoose
 JWT Authentication
 
 🗂️ Project Structure
+
 campus-posts-portal/
 │
 ├── backend/
